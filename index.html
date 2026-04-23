@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Aditi</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💖</text></svg>">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Background elements -->
+    <div class="mesh-gradient"></div>
+    <canvas id="heartCanvas"></canvas>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1 class="title">For Aditi</h1>
+            <p class="subtitle">A timeless journey together.</p>
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path d="M12 5v14M19 12l-7 7-7-7" />
+                </svg>
+            </div>
+        </section>
+
+        <!-- Quotes Section 1 -->
+        <section class="quotes-section">
+            <blockquote class="love-quote glass-panel">
+                "In all the world, there is no heart for me like yours. In all the world, there is no love for you like
+                mine."
+                <cite>— Maya Angelou</cite>
+            </blockquote>
+        </section>
+
+        <!-- Image Gallery -->
+        <section class="gallery">
+            <div class="gallery-grid">
+                <div class="frame frame-1"><img src="Images/IMG-20260418-WA0011.jpg" alt="Aditi 1"></div>
+                <div class="frame frame-2"><img src="Images/IMG-20260423-WA0001.jpg" alt="Aditi 2"></div>
+                <div class="frame frame-3"><img src="Images/IMG-20260423-WA0002.jpg" alt="Aditi 3"></div>
+                <div class="frame frame-4"><img src="Images/IMG-20260423-WA0003.jpg" alt="Aditi 4"></div>
+            </div>
+        </section>
+
+        <!-- Quotes Section 2 -->
+        <section class="quotes-section">
+            <blockquote class="love-quote glass-panel">
+                "I love you not only for what you are, but for what I am when I am with you."
+                <cite>— Roy Croft</cite>
+            </blockquote>
+        </section>
+
+        <!-- Timeline -->
+        <section class="timeline-section">
+            <h2 class="section-title">Our Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <h3>The Beginning</h3>
+                        <p>Where our story softly started, like a whisper in the wind.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <h3>A Thousand Sunsets</h3>
+                        <p>Every evening painted with the colors of our shared dreams.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-panel">
+                        <h3>Eternal Promises</h3>
+                        <p>Words spoken softly, weaving a future filled with light.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Audio Element & Mute Toggle -->
+    <audio id="bgMusic" loop>
+        <source src="https://www.mfiles.co.uk/mp3-downloads/debussy-clair-de-lune.mp3" type="audio/mpeg">
+    </audio>
+    <button id="muteBtn" class="mute-btn glass-panel" aria-label="Mute/Unmute">
+        <svg id="muteIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+            <line x1="23" y1="9" x2="17" y2="15"></line>
+            <line x1="17" y1="9" x2="23" y2="15"></line>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
